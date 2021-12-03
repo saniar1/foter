@@ -1,0 +1,174 @@
+footer {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.container-footer {
+    background-color:black;
+    margin-top: 60px;
+}
+
+.wrapper-footer {
+    padding-top: 15px;
+    padding-bottom: 33px;
+}
+.wrapper-footer a {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.wrapper-footer h3 {
+    size: 40px;
+    font-size: 30px;
+    color: white;
+}
+
+.email-footer {
+    padding-bottom: 30px;
+}
+
+.email-footer a {
+    color: darkorange;
+    font-size: 25px;
+}
+.email-footer img {
+    width: 30px;
+}
+
+.facebook {
+    margin-right: 10px;
+}
+.instagram {
+    margin-left: 10px;
+}
+
+.copyright {
+    float: left;
+    margin-top: 50px;
+    font-size: 20px;
+}
+.copyright span {
+    color: darkorange;
+}
+
+@media (max-width: 800px) {
+    .copyright {
+        font-size: 15px
+    }
+
+    .container-footer {
+        margin-top: 30px;
+    }
+    .wrapper-footer h3 {
+        font-size: 25px;
+    }
+
+    .email-footer a {
+        font-size: 17px;
+    }
+
+    .email-footer img {
+        width: 20px;
+    }
+    
+    .facebook {
+        margin-right: 8px;
+    }
+    .facebook img {
+        width: 38px;
+    }
+    .instagram {
+        margin-left: 8px;
+    }
+
+    .twitter img {
+        width: 38px;
+    }
+    .instagram img {
+        width: 38px; 
+    }
+
+    .wrapper-footer {
+        padding-top: 13px;
+        padding-bottom: 10px;
+    }
+
+    .email-footer {
+        padding-bottom: 15px;
+    }
+
+    footer {
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 5px;
+    }
+
+    .copyright {
+        margin-top: 30px;
+    }
+} 
+
+
+@media (max-width: 400px) {
+.copyright {
+    font-size: 10px;
+}
+
+.container-footer {
+    margin-top: 15px;
+}
+.wrapper-footer h3 {
+    font-size: 20px;
+}
+
+.wrapper-footer a {
+    font-size: 10px;
+}
+
+.email-footer a {
+    font-size: 10px;
+}
+
+.email-footer img {
+    width: 10px;
+}
+
+.facebook {
+    margin-right: 5px;
+}
+.facebook img {
+    width: 26px;
+}
+.instagram {
+    margin-left: 5px;
+}
+
+.twitter img {
+    width: 26px;
+}
+.instagram img {
+    width: 26px; 
+}
+
+.wrapper-footer {
+    padding-top: 10px;
+    padding-bottom: 7px;
+}
+
+.email-footer {
+    padding-bottom: 10px;
+}
+footer {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 3px;
+}
+
+.copyright {
+    margin-top: 10px;
+}
+}
