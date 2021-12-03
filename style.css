@@ -1,174 +1,322 @@
-footer {
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-bottom: 10px;
-    text-align: center;
-    font-family: sans-serif;
+/*=============================================
+    Project Name: Proyek Tim A08 HTML & CSS
+    Version: 1.0
+    Author: TIM A08
+    Devloped by: TIM A08
+    Relase Date: Desember 2021
+=============================================*/
+
+/*----------------------------
+  Global Styles
+----------------------------*/
+
+:root {
+  --black: #000;
+  --yellow: #fcd549;
+  --grey: #4a4949;
+  --white: #fff;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
-.container-footer {
-    background-color:black;
-    margin-top: 60px;
-}
-
-.wrapper-footer {
-    padding-top: 15px;
-    padding-bottom: 33px;
-}
-.wrapper-footer a {
-    color: white;
-    text-decoration: none;
-    font-size: 15px;
-}
-
-.wrapper-footer h3 {
-    size: 40px;
-    font-size: 30px;
-    color: white;
-}
-
-.email-footer {
-    padding-bottom: 30px;
-}
-
-.email-footer a {
-    color: darkorange;
-    font-size: 25px;
-}
-.email-footer img {
-    width: 30px;
-}
-
-.facebook {
-    margin-right: 10px;
-}
-.instagram {
-    margin-left: 10px;
-}
-
-.copyright {
-    float: left;
-    margin-top: 50px;
-    font-size: 20px;
-}
-.copyright span {
-    color: darkorange;
-}
-
-@media (max-width: 800px) {
-    .copyright {
-        font-size: 15px
-    }
-
-    .container-footer {
-        margin-top: 30px;
-    }
-    .wrapper-footer h3 {
-        font-size: 25px;
-    }
-
-    .email-footer a {
-        font-size: 17px;
-    }
-
-    .email-footer img {
-        width: 20px;
-    }
+body {
+  font-family: "PT Sans", sans-serif;
+  font-size: 16px;
     
-    .facebook {
-        margin-right: 8px;
-    }
-    .facebook img {
-        width: 38px;
-    }
-    .instagram {
-        margin-left: 8px;
-    }
-
-    .twitter img {
-        width: 38px;
-    }
-    .instagram img {
-        width: 38px; 
-    }
-
-    .wrapper-footer {
-        padding-top: 13px;
-        padding-bottom: 10px;
-    }
-
-    .email-footer {
-        padding-bottom: 15px;
-    }
-
-    footer {
-        margin-left: 5%;
-        margin-right: 5%;
-        margin-bottom: 5px;
-    }
-
-    .copyright {
-        margin-top: 30px;
-    }
-} 
-
-
-@media (max-width: 400px) {
-.copyright {
-    font-size: 10px;
 }
 
-.container-footer {
-    margin-top: 15px;
-}
-.wrapper-footer h3 {
-    font-size: 20px;
-}
-
-.wrapper-footer a {
-    font-size: 10px;
+section {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  width: 100%;
+  height: 100%;
 }
 
-.email-footer a {
-    font-size: 10px;
+a {
+  text-decoration: none;
 }
 
-.email-footer img {
-    width: 10px;
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  justify-self: center;
+  margin: 0 auto;
+  max-width: 1320px;
 }
 
-.facebook {
-    margin-right: 5px;
-}
-.facebook img {
-    width: 26px;
-}
-.instagram {
-    margin-left: 5px;
+.title {
+  font-family: "Poppins", sans-serif;
+  font-size: 50px;
+  font-weight: 500;
+  margin-bottom: 30px;
 }
 
-.twitter img {
-    width: 26px;
-}
-.instagram img {
-    width: 26px; 
-}
-
-.wrapper-footer {
-    padding-top: 10px;
-    padding-bottom: 7px;
+.subtitle {
+  font-family: "Poppins", sans-serif;
+  font-size: 23px;
+  font-weight: 400;
+  text-transform: uppercase;
 }
 
-.email-footer {
-    padding-bottom: 10px;
-}
-footer {
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-bottom: 3px;
+/*-----------------------------
+  Header & Navbar
+-----------------------------*/
+
+/*-----------------------------
+  Skills -- by Adinda
+-----------------------------*/
+.skills-title{
+    text-align: center; 
 }
 
-.copyright {
-    margin-top: 10px;
+.skills-title h4{
+    color:darkgrey;
+    margin-bottom: 10px;
 }
+
+.skills-title h1{
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.skills-list td {
+    padding: 35px;
+}
+
+.skills-list a {
+    color: black;
+    font-size: 19px;
+}
+
+.skills-list i {
+    background-color: black;
+    font-size:30px;
+    color:white;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+
+/*-----------------------------
+  Portfolio
+-----------------------------*/
+
+/*-----------------------------
+  Testimonials
+-----------------------------*/
+
+.testimonials {
+  background-image: url("../images/bg-testimony.png");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 780px;
+  padding: 80px 0px 0px 0px;
+}
+
+.testimony-header {
+  text-align: center;
+  color: var(--white);
+  margin-bottom: 95px;
+}
+.testimony {
+  text-align: center;
+  background: var(--white);
+  position: relative;
+  width: 376px;
+  height: 335px;
+  border-radius: 5px;
+  margin-top: 50px;
+}
+.testimony-img {
+  width: 120px;
+  border-radius: 50%;
+  position: absolute;
+  top: -55px;
+  left: 35%;
+  border: var(--yellow) solid 3px;
+}
+
+.testimony-desc {
+  color: var(--grey);
+  padding: 100px 40px 30px 50px;
+  font-style: italic;
+}
+
+.testimony-job-title {
+  margin-top: 25px;
+  color: var(--grey);
+}
+
+.stars-icon {
+  margin-top: 30px;
+}
+
+/*-----------------------------
+  Contact
+-----------------------------*/
+
+/*-----------------------------
+  Footer
+------------------------------*/
+
+/*=================================================
+    Responsive (Notebook, Tablet, Mobile Phone)
+=================================================*/
+
+/*  Notebook */
+@media (max-width: 1200px) {
+  .container {
+    max-width: 1140px;
+    margin: 0 auto;
+    justify-content: center;
+  }
+
+  /*-----------------------------
+     Header & Navbar
+  -----------------------------*/
+
+  /*-----------------------------
+     Portfolio
+  -----------------------------*/
+
+  /*-----------------------------
+     Testimonials
+  -----------------------------*/
+  .testimonials {
+    height: auto;
+    padding: 100px 0px;
+  }
+  .testimony {
+    margin-top: 150px;
+    width: 300px;
+    margin-right: 10px;
+  }
+
+  /*-----------------------------
+     Contact
+  -----------------------------*/
+
+  /*-----------------------------
+     Footer
+  ------------------------------*/
+}
+
+/* Tablets */
+@media (max-width: 992px) {
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    /* border: #fcd549 solid 3px; */
+    justify-content: center;
+  }
+
+  /*-----------------------------
+      Header & Navbar
+  -----------------------------*/
+
+  /*-----------------------------
+      Skills
+  -----------------------------*/
+
+  /*-----------------------------
+     Portfolio
+  -----------------------------*/
+
+  /*-----------------------------
+     Testimonials
+  -----------------------------*/
+  .testimony {
+    margin-top: 100px;
+    margin-right: 15px;
+    width: 270px;
+    height: 270px;
+    padding: 10px;
+  }
+
+  .testimony-img {
+    width: 80px;
+    height: 80px;
+  }
+
+  .testimony-desc {
+    padding: 30px;
+  }
+
+  /*-----------------------------
+     Contact
+  ---------------------------*/
+
+  /*-----------------------------
+     Footer
+  -----------------------------*/
+}
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+
+  /*-----------------------------
+     Header & Navbar
+  -----------------------------*/
+
+  /*-----------------------------
+     Skills
+  -----------------------------*/
+
+  /*-----------------------------
+     Portfolio
+  -----------------------------*/
+
+  /*-----------------------------
+     Testimonials
+  -----------------------------*/
+
+  /*-----------------------------
+     Contact
+  -----------------------------*/
+
+  /*-----------------------------
+     Footer
+  ------------------------------*/
+}
+
+@media (max-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+
+  /*-----------------------------
+     Header & Navbar
+  -----------------------------*/
+
+  /*-----------------------------
+     Skills
+  -----------------------------*/
+
+  /*-----------------------------
+     Portfolio
+  -----------------------------*/
+
+  /*-----------------------------
+     Testimonials
+  -----------------------------*/
+
+  /*-----------------------------
+     Contact
+  -----------------------------*/
+
+  /*-----------------------------
+     Footer
+  ------------------------------*/
 }
